@@ -1,0 +1,46 @@
+---
+title: "Leaflet Test"
+author: "Jorge Robledo"
+date: "3/1/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview.
+
+The data for this map is taken from the Business Intelligence Site (www.businessintelligence.info). The dataset which contains 8.112 town of Spain with some data of their population. The same is available here: https://www.businessintelligence.info/assets/listado-longitud-latitud-municipios-espana.xls
+
+## Reading Data.
+
+```{r}
+library(readxl)
+url <- "https://www.businessintelligence.info/assets/listado-longitud-latitud-municipios-espana.xls"
+destfile <- "listado_longitud_latitud_municipios_espana.xls"
+download.file(url, destfile)
+listado_longitud_latitud_municipios_espana <- read_excel(destfile, skip = 2)
+```
+
+## Plotting data in the Map.
+
+```{r echo=FALSE}
+library(leaflet)
+
+content <- paste(
+  "<b>",listado_longitud_latitud_municipios_espana$Población,"</b><br>",
+  listado_longitud_latitud_municipios_espana$Provincia, "<br>",
+  "Habitantes: <b>", listado_longitud_latitud_municipios_espana$Habitantes, "</b><br>",
+  "Hombres: ", listado_longitud_latitud_municipios_espana$Hombres, " - ",
+  "Mujeres: ", listado_longitud_latitud_municipios_espana$Mujeres
+)
+
+df %>%
+  leaflet() %>%
+  addTiles() %>%
+  addMarkers(lat=listado_longitud_latitud_municipios_espana$Latitud,
+             lng=listado_longitud_latitud_municipios_espana$Longitud,
+             popup=content,
+             clusterOptions=markerClusterOptions())
+```
