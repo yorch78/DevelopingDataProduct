@@ -1,0 +1,34 @@
+---
+title: "R Markdown Presentation & Plotly"
+author: "Jorge Robledo"
+date: "7/1/2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Dataset 
+
+```{r dataset, echo=TRUE, message=FALSE}
+library(plotly)
+data("mtcars")
+head(mtcars)
+```
+
+## Simple plot
+
+```{r simple_plot, echo=TRUE, message=FALSE}
+plot_ly(mtcars, x = ~ cyl, y = ~ mpg, 
+        type = "histogram", color = ~ factor(cyl))
+```
+
+## Interactive Plot
+
+```{r interactive_plot, echo=TRUE,message=FALSE}
+plot_ly(mtcars, x = ~ cyl,
+        y = ~ mpg, type = "scatter",
+        color = ~ factor(cyl))
+```
+
