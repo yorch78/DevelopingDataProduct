@@ -5,7 +5,6 @@ date: "14/1/2018"
 output: html_document
 ---
 
-
 Coursera Course: Developing Data Products
 
 Assignment Submission Files:
