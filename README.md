@@ -18,11 +18,11 @@ Assignment Submission Files:
 
 Instructions:
 
-1. Clone the code using `git clone https://github.com/yorch78/DevelopingDataProducts.git LOCALDIRECTORY`.
+1. Download the code to a `LOCALDIRECTORY`.
 
 2. Load RStudio.
 
-3. Set working directory to LOCALDIRECTORY `setwd("LOCALDIRECTORY").
+3. Set working directory to LOCALDIRECTORY `setwd("LOCALDIRECTORY")`.
 
 4. Load the Shiny library with `library(shiny)`.
 
