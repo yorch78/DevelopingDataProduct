@@ -35,5 +35,10 @@ Dependencies:
 1. Shiny library.
 
 More Information:
+A **presentation** showing the main characteristics of te app is deployed on github and can be displayed from:
 
-The application is deployed on ShinyApps.io and can be tested at [https://yorch78.shinyapps.io/MyShinyApp/](https://yorch78.shinyapps.io/MyShinyApp/).
+[https://yorch78.github.io/DevelopingDataProducts/MyShinyApp.html#1](https://yorch78.github.io/DevelopingDataProducts/MyShinyApp.html#1).
+
+The **application** is deployed on ShinyApps.io and can be tested at:
+
+[https://yorch78.shinyapps.io/MyShinyApp/](https://yorch78.shinyapps.io/MyShinyApp/).
