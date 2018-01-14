@@ -8,32 +8,32 @@ output: html_document
 
 Coursera Course: Developing Data Products
 
-Assignment Submission Files
+Assignment Submission Files:
 
-- [ui.R](https://github.com/rwstang/Developing-Data-Products-Assignment/blob/master/ui.R)
+- [ui.R](https://github.com/yorch78/DevelopingDataProducts/blob/master/ui.R)
 
-- [server.R](https://github.com/rwstang/Developing-Data-Products-Assignment/blob/master/server.R)
+- [server.R](https://github.com/yorch78/DevelopingDataProducts/blob/master/server.R)
 
-- [README.md](https://github.com/rwstang/Developing-Data-Products-Assignment/blob/master/README.md)
+- [README.md](https://github.com/yorch78/DevelopingDataProducts/blob/master/README.md)
 
-Instructions
+Instructions:
 
-1. Clone the code using 'git clone https://github.com/rwstang/Developing-Data-Products-Assignment.git YOURDIRECTORY'
+1. Clone the code using `git clone https://github.com/yorch78/DevelopingDataProducts.git LOCALDIRECTORY`.
 
-2. Load your RStudio
+2. Load RStudio.
 
-3. Set your working directory to YOURDIRECTORY using setwd("YOURDIRECTORY")
+3. Set working directory to LOCALDIRECTORY `setwd("LOCALDIRECTORY").
 
-4. Load the Shiny library using library(shiny)
+4. Load the Shiny library with `library(shiny)`.
 
-5. Run the application using runApp()
+5. Run the application using `runApp()`.
 
-6. You will see the application in a browser. Follow the instructions to use the application.
+6. You will see the application in a browser. Read there the instructions to use the application.
 
-Dependencies
+Dependencies:
 
-1. Shiny library
+1. Shiny library.
 
-More Information
+More Information:
 
-The application is deployed on ShinyApps.io at [https://raymondwstang.shinyapps.io/assignment/](https://raymondwstang.shinyapps.io/assignment/).
+The application is deployed on ShinyApps.io and can be tested at [https://yorch78.shinyapps.io/MyShinyApp/](https://yorch78.shinyapps.io/MyShinyApp/).
