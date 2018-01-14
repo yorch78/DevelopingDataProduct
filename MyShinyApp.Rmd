@@ -1,0 +1,41 @@
+---
+title: "Shiny App - Spanish Population by Province"
+author: "Jorge Robledo"
+date: "14/1/2018"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Diapositiva 1 
+Shiny Appl - Spanish Population by Province
+```{r dataset, echo=TRUE, message=FALSE}
+
+```
+
+## Diapositiva 2 plot
+Diapositiva 2
+```{r simple_plot, echo=TRUE, message=FALSE}
+
+```
+
+## Diapositiva 3 Plot
+Diapositiva 3
+```{r interactive_plot, echo=TRUE,message=FALSE}
+
+```
+
+## Diapositiva 4 Plot
+Diapositiva 4
+```{r interactive_plot, echo=TRUE,message=FALSE}
+
+```
+
+## Diapositiva 5 Plot
+Diapositiva 5
+```{r interactive_plot, echo=TRUE,message=FALSE}
+
+```
